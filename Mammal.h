@@ -3,8 +3,27 @@
 
 #include "Animal.h"
 
-//define mammal class here
 
+class Mammal :: Animal{
+
+private :
+
+    string furColor;
+
+public :
+    Mammal() : public Animal();
+    
+    string getfurColor(){
+    return furColor;
+    };
+  void setfurColor(string furColor){
+  this -> furColor =furColor;
+  };
+
+
+};
+
+};
 
 
 
