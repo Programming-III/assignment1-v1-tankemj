@@ -3,8 +3,24 @@
 
 #include "Animal.h"
 
-//define class bird here 
 
+class Bird :: Animal {
+
+private:
+    float wingSpan;
+    
+public:
+    Bird() : Animal();
+    float getwingspan(){
+    return wingSpan;
+    };
+    void setwingspan(float wingSpan){
+        this-wingSpan=wingSpan;
+    };
+
+
+
+};
 
 
 
