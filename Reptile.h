@@ -3,7 +3,23 @@
 
 #include "Animal.h"
 
-//define reptile class here
+
+class Reptile{
+
+private: 
+    bool isVenomus;
+public:
+    Reptile():Animal(){
+    this ->isVenomus =false;
+    };
+    bool getisVenomus(){
+    return isVenomus;
+    };
+    void setisVenomus(bool isVenomus){
+    this ->isVenomus = isVenomus ;
+    };
+
+};
 
 
 
